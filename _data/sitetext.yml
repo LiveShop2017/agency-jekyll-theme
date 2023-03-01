@@ -14,22 +14,35 @@ en: &DEFAULT_EN
     title: Welcome to our Studio!
     text: It's Nice To Meet You
     button: Tell Me More
-    buttonlink: "#services"
+    buttonlink: "#about"
 
   services:
-    title: "Services"
+    title: "Publications"
     text: "Lorem ipsum"
     section: services
     list:
-      - title: "E-Commerce"
+      - title: "Zhang, B., Wang, S., Moradkhani, H., Slater, L., and Liu, J. (2022) A vine copula-based ensemble projection of precipitation intensity-duration-frequency curves at sub-daily to multi-day time scales. Water Resources Research, 58,2022WR032658. **[PDF]**"
         desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
-        icon: fas fa-shopping-cart #find more at https://fontawesome.com/icons
-      - title: "Responsive Design"
+      - title: "Chen, H. and Wang, S. (2022) Accelerated transition between dry and wet periods in a warming climate. Geophysical Research Letters, 49, e2022GL099766. **[PDF]**"
         desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
-        icon: fas fa-laptop
-      - title: "[Markdown](https://en.wikipedia.org/wiki/Markdown)"
+      - title: "Li, X. and Wang, S. (2022) Recent increase in the occurrence of snow droughts followed by extreme heatwaves in a warmer world. Geophysical Research Letters, 49, e2022GL099925 **[PDF]**. `Selected as Research Highlight in Nature. ‘Snow droughts’ followed by extreme heat are striking more of the planet, Nature, 10.1038/d41586-022-01846-1, 607, 7918, (215-215), (2022).`"
+        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+      - title: "[Markdown](https://en.wikipedia.org/wiki/Markdown) Li, K., Huang, G., Wang, S., and Razavi, S. (2022) Development of a physics-informed data-driven model for gaining insights into hydrological processes in irrigated watersheds. ***Journal of Hydrology***, 128323. **[PDF]**"
         desc: "Your description here, full **Markdown** support"
-        icon: fab fa-markdown
+
+  projects:
+    title: "Projects"
+    text: "Lorem ipsum"
+    section: projects
+    list:
+      - title: "Zhang, B., Wang, S., Moradkhani, H., Slater, L., and Liu, J. (2022) A vine copula-based ensemble projection of precipitation intensity-duration-frequency curves at sub-daily to multi-day time scales. Water Resources Research, 58,2022WR032658. **[PDF]**"
+        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+      - title: "Chen, H. and Wang, S. (2022) Accelerated transition between dry and wet periods in a warming climate. Geophysical Research Letters, 49, e2022GL099766. **[PDF]**"
+        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+      - title: "Li, X. and Wang, S. (2022) Recent increase in the occurrence of snow droughts followed by extreme heatwaves in a warmer world. Geophysical Research Letters, 49, e2022GL099925 **[PDF]**. `Selected as Research Highlight in Nature. ‘Snow droughts’ followed by extreme heat are striking more of the planet, Nature, 10.1038/d41586-022-01846-1, 607, 7918, (215-215), (2022).`"
+        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+      - title: "[Markdown](https://en.wikipedia.org/wiki/Markdown) Li, K., Huang, G., Wang, S., and Razavi, S. (2022) Development of a physics-informed data-driven model for gaining insights into hydrological processes in irrigated watersheds. ***Journal of Hydrology***, 128323. **[PDF]**"
+        desc: "Your description here, full **Markdown** support"
 
   portfolio:
     title: "Portfolio"
@@ -71,7 +84,7 @@ en: &DEFAULT_EN
   about:
     title: "About Us"
     text: "our story"
-    body: " **Lorem** ipsum dolor sit amet, consectetur adipisicing elit. \n\r  Aut eaque, laboriosam veritatis, quos \n\r `我是支持markdown语法的` \n\r non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported. \n\r Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+    body: " **Lorem** ipsum dolor sit amet, consectetur adipisicing elit. \n\r  Aut eaque, laboriosam veritatis, quos \n\r `我是支持markdown语法的` \n\r non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported. \n\r Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit. \n\r Wang, S., Huang, G.H., and Zhou, Y. (2016) A fractional-factorial probabilistic-possibilistic optimization framework for planning water resources management systems with multi-level parametric interactions. Journal of Environmental Management, 172, 97–106. \n\r **Education:** \n\r • 2015   Ph.D. in Geography. University of Cincinnati, Ohio, USA \n\r • 2011   M.A. in Geography. University of Cincinnati, Ohio, USA \n\r • 2007  B.S. (with high honor) in GIS. Sun Yat-sen University"
     section: about
 
   clients:
