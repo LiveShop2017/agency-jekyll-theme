@@ -71,7 +71,7 @@ en: &DEFAULT_EN
   about:
     title: "About Us"
     text: "our story"
-    body: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported."
+    body: " **Lorem** ipsum dolor sit amet, consectetur adipisicing elit. \n\r  Aut eaque, laboriosam veritatis, quos \n\r `我是支持markdown语法的` \n\r non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported. \n\r Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
     section: about
 
   clients:
@@ -133,16 +133,6 @@ en: &DEFAULT_EN
     title: "Contact Us"
     text: "Lorem ipsum or call 123456789"
     section: contact
-    name: "Name*"
-    name-validation: "Please enter your name."
-    email: "Email*"
-    email-validation: "Please enter your email address."
-    phone: "Phone Number"
-    phone-validation: "Please enter your phone number."
-    message: "Message*"
-    message-validation: "Please enter a message."
-    subject: "Contact Form Submission"
-    submit: "Send Message"
 
   footer:
     legal: "Privacy Policy"
@@ -292,16 +282,6 @@ es: &DEFAULT_ES
     title: "Contáctenos"
     text: "Lorem ipsum or call 123456789"
     section: contacto
-    name: "Nombre*"
-    name-validation: "Por favor ingrese su nombre."
-    email: "Correo Electrónico*"
-    email-validation: "Por favor ingrese su correo electrónico."
-    phone: "Número Telefónico*"
-    phone-validation: "Por favor ingrese su número telefónico."
-    message: "Mensaje*"
-    message-validation: "Por favor escriba un mensaje."
-    subject: "Envío del formulario de contacto"
-    submit: "Enviar Mensaje"
 
   footer:
     legal: "Política de Privacidad"
