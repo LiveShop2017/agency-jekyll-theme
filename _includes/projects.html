@@ -19,7 +19,7 @@
         {% for project in site.data.sitetext[site.locale].projects.list %}
         <div class="col-md-12">
             <ul>
-                <li>{{ project.title | markdownify }}</li>
+                <li title="{{ project.desc }}">{{ project.title | markdownify }}</li>
             </ul>
         </div>
         {% endfor %}
