@@ -20,6 +20,8 @@ en: &DEFAULT_EN
         desc: "Your description here, full **Markdown** support"
       - title: "Li, K., Huang, G., Wang, S., and Razavi, S. (2022) Development of a physics-informed data-driven model for gaining insights into hydrological processes in irrigated watersheds. ***Journal of Hydrology***, 128323. **[PDF]**"
         desc: "Your description here, full **Markdown** support"
+      - title: "... ..."
+        desc: "..."
 
   projects:
     title: "Projects"
@@ -44,12 +46,17 @@ en: &DEFAULT_EN
         desc: "desc"
       - title: "Wu, Q., & Lane, C. R. (2016). Delineation and quantification of wetland depressions in the Prairie Pothole Region of North Dakota. Wetlands , 36(2), 215-227. 10.1007/s13157-015-0731-6 ( [source code](/) )"
         desc: "desc"
+      - title: "... ..."
+        desc: "..."
 
   about:
+    section: about
     title: "About Us"
     text: "our story"
-    body: " **Lorem** ipsum dolor sit amet, consectetur adipisicing elit. \n\r  Aut eaque, laboriosam veritatis, quos \n\r `我是支持markdown语法的` \n\r non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported. \n\r Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit. \n\r Wang, S., Huang, G.H., and Zhou, Y. (2016) A fractional-factorial probabilistic-possibilistic optimization framework for planning water resources management systems with multi-level parametric interactions. Journal of Environmental Management, 172, 97–106. \n\r **Education:** \n\r • 2015   Ph.D. in Geography. University of Cincinnati, Ohio, USA \n\r • 2011   M.A. in Geography. University of Cincinnati, Ohio, USA \n\r • 2007  B.S. (with high honor) in GIS. Sun Yat-sen University"
-    section: about
+    body: " **Lorem** ipsum dolor sit amet, consectetur adipisicing elit. \n\r  Aut eaque, laboriosam veritatis, quos \n\r `我是支持markdown语法的` \n\r non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported. \n\r Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit. \n\r Wang, S., Huang, G.H., and Zhou, Y. (2016) A fractional-factorial probabilistic-possibilistic optimization framework for planning water resources management systems with multi-level parametric interactions. Journal of Environmental Management, 172, 97–106. \n\r **Education:** \n\r • 2015  Ph.D. in Geography. University of Cincinnati, Ohio, USA \n\r • 2011  M.A. in Geography. University of Cincinnati, Ohio, USA \n\r • 2007 B.S. (with high honor) in GIS. Sun Yat-sen University"
+    avatar: "/assets/img/about/avatar.jpg"
+    name: "you name"
+    desc: "hava a nice day. en, `Brief` ***description***"
 
   contact:
     title: "Contact Us"

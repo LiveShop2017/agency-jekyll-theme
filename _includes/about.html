@@ -3,9 +3,9 @@
 <div class="container">
     <div class="row">
         <div class="col-lg-4 text-center">
-            <img src="/assets/img/about/avatar.jpg" class="about-avatar">
+            <img src="{{site.data.sitetext[site.locale].about.avatar | default: '/assets/img/about/avatar.jpg'}}" class="about-avatar">
             <p class="about-name">
-                我是姓名
+                {{ site.data.sitetext[site.locale].about.name | default: "Your Name"}}
             </p>
             <p>
             <ul class="social-buttons">
@@ -21,9 +21,11 @@
             </ul>
             </p>
             <p>
-                我是其他内容描述，
-                我市其他内容秒睡
+                {{ site.data.sitetext[site.locale].about.desc | markdownify | default: "Brief description"}}
             </p>
+            <!--<p>
+                <iframe src="/" frameborder="0" scrolling="0" width="300px" height="500px"></iframe>
+            </p>-->
         </div>
         <div class="col-lg-8 mx-auto">
             <h2 class="section-heading text-uppercase">{{ site.data.sitetext[site.locale].about.title | default: "About
