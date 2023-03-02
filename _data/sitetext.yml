@@ -54,7 +54,7 @@ en: &DEFAULT_EN
     title: "About Us"
     text: "our story"
     body: " **Lorem** ipsum dolor sit amet, consectetur adipisicing elit. \n\r  Aut eaque, laboriosam veritatis, quos \n\r `我是支持markdown语法的` \n\r non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported. \n\r Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit. \n\r Wang, S., Huang, G.H., and Zhou, Y. (2016) A fractional-factorial probabilistic-possibilistic optimization framework for planning water resources management systems with multi-level parametric interactions. Journal of Environmental Management, 172, 97–106. \n\r **Education:** \n\r • 2015  Ph.D. in Geography. University of Cincinnati, Ohio, USA \n\r • 2011  M.A. in Geography. University of Cincinnati, Ohio, USA \n\r • 2007 B.S. (with high honor) in GIS. Sun Yat-sen University"
-    avatar: "/assets/img/about/avatar.jpg"
+    avatar: "../img/about/avatar.jpg"
     name: "you name"
     desc: "hava a nice day. en, `Brief` ***description***"
 

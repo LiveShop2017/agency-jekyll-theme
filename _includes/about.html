@@ -3,7 +3,7 @@
 <div class="container">
     <div class="row">
         <div class="col-lg-4 text-center">
-            <img src="{{site.data.sitetext[site.locale].about.avatar | default: '/assets/img/about/avatar.jpg'}}" class="about-avatar">
+            <img src="{{site.data.sitetext[site.locale].about.avatar | default: '../img/about/avatar.jpg'}}" class="about-avatar">
             <p class="about-name">
                 {{ site.data.sitetext[site.locale].about.name | default: "Your Name"}}
             </p>
