@@ -49,6 +49,32 @@ en: &DEFAULT_EN
       - title: "... ..."
         desc: "..."
 
+  honors:
+    title: "Awards and Honors"
+    text: "-"
+    section: honors
+    list:
+      - title: "Zhang, B., Wang, S., Moradkhani, H., Slater, L., and Liu, J. (2022) A vine copula-based ensemble projection of precipitation intensity-duration-frequency curves at sub-daily to multi-day time scales. Water Resources Research, 58,2022WR032658. **[PDF]**"
+        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+      - title: "Chen, H. and Wang, S. (2022) Accelerated transition between dry and wet periods in a warming climate. Geophysical Research Letters, 49, e2022GL099766. **[PDF]**"
+        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+      - title: "Li, X. and Wang, S. (2022) Recent increase in the occurrence of snow droughts followed by extreme heatwaves in a warmer world. Geophysical Research Letters, 49, e2022GL099925 **[PDF]**. `Selected as Research Highlight in Nature. ‘Snow droughts’ followed by extreme heat are striking more of the planet, Nature, 10.1038/d41586-022-01846-1, 607, 7918, (215-215), (2022).`"
+        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+      - title: "[Markdown](https://en.wikipedia.org/wiki/Markdown) Li, K., Huang, G., Wang, S., and Razavi, S. (2022) Development of a physics-informed data-driven model for gaining insights into hydrological processes in irrigated watersheds. ***Journal of Hydrology***, 128323. **[PDF]**"
+        desc: "Your description here, full **Markdown** support"
+      - title: "Liu, H., **Wang, L.**, Sherman, D., Gao, Y., & Wu, Q. (2010). An object-based conceptual framework and computational method for representing and analyzing coastal morphological changes. ***International Journal of Geographical Information Science*** , 24(7), 1015-1041.10.1080/1365"
+        desc: "desc"
+      - title: "Townsend‐Small, A., Pataki, D. E., Liu, H., Li, Z., Wu, Q., & Thomas, B. (2013). Increasing summer river discharge in southern California, USA, linked to urbanization. Geophysical Research Letters , 40(17), `4643-4647. 10.1002/grl.50921`"
+        desc: "desc"
+      - title: "Wu, Q., Lane, C. R., & **Liu, H**. (2014). An effective method for detecting potential woodland vernal pools using high-resolution LiDAR data and aerial imagery. Remote Sensing , 6(11), 11444-11467. 10.3390/rs61111444"
+        desc: "desc"
+      - title: "Lane, C. R., **Liu, H**., Autrey, B. C., Anenkhonov, O., Chepinoga, V., & Wu, Q. (2014). Improved wetland classification using eight-band high resolution satellite imagery and a hybrid approach. Remote Sensing , 6(12), [12187-12216. 10.3390/rs61212187](/)"
+        desc: "desc"
+      - title: "Wu, Q., & Lane, C. R. (2016). Delineation and quantification of wetland depressions in the Prairie Pothole Region of North Dakota. Wetlands , 36(2), 215-227. 10.1007/s13157-015-0731-6 ( [source code](/) )"
+        desc: "desc"
+      - title: "... ..."
+        desc: "..."
+
   about:
     section: about
     title: "About Us"
@@ -66,7 +92,7 @@ en: &DEFAULT_EN
   footer:
     legal: "Privacy Policy"
     social:
-      - url: https://twitter.com
+      - url: https://twitter.com/Shixuan_Lyu
         icon: "fab fa-twitter"
       - url: https://facebook.com
         icon: "fab fa-facebook-f"

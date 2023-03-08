@@ -10,41 +10,11 @@
     </div>
     <div class="row">
         <div class="col-lg-12">
-            <div id="map" style="width: 100%;height: 500px"></div>
+            <div id="map" style="width: 100%;height: 500px">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d10440.03177652403!2d114.17711838015951!3d22.311730976700336!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x340400e67907613b%3A0x7c3ee7ef4563d864!2z6aaZ5riv5L2T6IKy6aaG!5e0!3m2!1szh-CN!2shk!4v1678285129906!5m2!1szh-CN!2shk" width="100%" height="500" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
         </div>
     </div>
 </div>
 </section>
-<script src="assets/js/jquery.min.js"></script>
-<script type="text/javascript"
-        src="https://api.map.baidu.com/api?v=2.0&amp;ak=WLiWxXcGAWoOPHiFHFlWeaRfaPefrOWz"></script>
-<script>
-    $('#mark').show();
-    var map = new BMap.Map('map');
-    var point = new BMap.Point(120.73717, 31.25795);
-    map.centerAndZoom(point, 15);
-    map.enableScrollWheelZoom(true);
-    var marker = new BMap.Marker(point);
-    map.addOverlay(marker);
-    marker.setAnimation(BMAP_ANIMATION_BOUNCE);
-    var opts = {
-        position: point,
-        offset: new BMap.Size(20, -30),
-    };
-    var label = new BMap.Label('我是标注的地址位置名称', opts);
-    label.setStyle({
-        color: '#006abe',
-        fontSize: '16px',
-        height: 'auto',
-        border: '1px solid #fff',
-        padding: '12px 12px',
-        fontWeight: 'bold',
-        lineHeight: '16px',
-        fontFamily: 'SourceHanSansCN-Regular',
-    });
-    map.addOverlay(label);
-    window.setTimeout(function () {
-        map.panTo(new BMap.Point(120.73717, 31.25795));
-    }, 2000);
-</script>
 <!-- End Contact -->
