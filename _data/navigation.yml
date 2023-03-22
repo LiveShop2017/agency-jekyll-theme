@@ -6,6 +6,8 @@ en: &DEFAULT_EN
       section: services
     - title: "Projects"
       section: projects
+    - title: "Awards"
+      section: honors
     - title: "Contact"
       section: contact
 #    - title: "Theme Source"
